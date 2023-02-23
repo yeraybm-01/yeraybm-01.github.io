@@ -1,6 +1,35 @@
-/* body {
-    background: #000;
+* {
+    font-family: 'Samsung Sans Regular';
 }
-.btn {
-    padding: .55rem 1.5rem .45rem;
-  } */
+
+body {
+    background-color: #000;
+}
+
+/* Header */
+header {
+    background-color: rgba(37, 35, 35, 0.904);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.container-fluid {
+    background-color: rgba(37, 35, 35, 0.904);
+    border-bottom: 1vw #fff;
+}
+
+/* Body Main */
+.main-content {
+    margin: 1vw;
+}
+#main-title {
+    font-size: .8vw;
+}
+.main-text {
+    font-size: .7vw;
+}
+
+img {
+    margin-top: 2vw;
+    margin-left: 5vw;
+}
+/* Footer */
