@@ -1,9 +1,7 @@
 * {
     font-family: 'Samsung Sans Regular';
-}
-
-body {
-    background-color: #000;
+    margin: 0;
+    padding: 0;
 }
 
 /* Header */
@@ -17,19 +15,98 @@ header {
     border-bottom: 1vw #fff;
 }
 
+.active {
+    color: #fff;
+}
+
 /* Body Main */
 .main-content {
-    margin: 1vw;
+    margin: 1em;
 }
 #main-title {
-    font-size: .8vw;
+    font-size: 1.3em;
 }
 .main-text {
-    font-size: .7vw;
+    font-size: 1em;
 }
 
 img {
+    max-width: 10em;
     margin-top: 2vw;
     margin-left: 5vw;
 }
+
+/*  Body Team */
+#personal {
+    display: flex;
+    margin-top: 5em;
+    margin-left: 13em;
+    flex-wrap: wrap;
+    padding-bottom: 10em;
+}
+
+#personal .persona {
+    margin-right: 20em;
+    text-align: center;
+}
+
+.persona .icon-persona {
+    font-size: 10em;
+}
+
+/*  Location */
+#location-embed {
+    width: 80%;
+    height: 20em;
+}
+
 /* Footer */
+footer {
+    background-color: rgba(37, 35, 35, 0.904);
+    position: fixed;
+    width: 100%;
+    bottom: -.1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+#footer-social {
+    color: #fff;
+    margin-top: 1em;
+    margin-left: 1.5em;
+    text-align: center;
+    /* text-align: center; */
+    /* display: flex; */
+}
+
+#footer-social a {
+    color: #fff;
+    font-size: .9em;
+    margin-right: 2em;
+    text-decoration: none;
+}
+#footer-social a:before {
+    color: #fff;
+    font-size: .9em;
+    margin-right: .3em;
+    text-decoration: none;
+}
+#footer-social a:after {
+    color: #fff;
+    font-size: .9em;
+    margin-right: .3em;
+    text-decoration: none;
+}
+
+#footer-social p {
+    margin-left: 1em;
+    font-size: .2;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 30px;
+    color: #fff;
+    font-size: .8em;
+}
