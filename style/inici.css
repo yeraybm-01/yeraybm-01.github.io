@@ -22,14 +22,32 @@ header {
     margin: 1vw;
 }
 #main-title {
-    font-size: .8vw;
+    font-size: .8em;
 }
-.main-text {
-    font-size: .7vw;
+/* .main-text {
+    font-size: .7em;
+} */
+
+.main-content-imgs {
+    display: flex;
+    flex-wrap: nowrap; 
 }
 
-img {
-    margin-top: 2vw;
-    margin-left: 5vw;
+.main-content-imgs > img {
+    margin: 1em;
+    padding: 1em;
+    width: 15em;
+    height: 15em;
 }
+
+/* img {
+    margin-top: 2em;
+    margin-left: 5em;
+} */
 /* Footer */
+
+/* Others */
+.active {
+    font-size: 1.2em;
+    font-weight: bold;
+}
