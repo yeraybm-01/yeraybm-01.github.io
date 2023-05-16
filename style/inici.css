@@ -37,6 +37,30 @@ img {
 }
 
 /*  Body Team */
+#services {
+    margin-top: 3em;
+    margin-left: 15em;
+    padding-bottom: 10em;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+
+#services .service {
+    margin-right: 10em;
+    text-align: center;
+    align-items: center;
+}
+
+.service .service-img {
+    max-width: 10em;
+    margin-top: 2em;
+    margin-left: 0em;
+    /* align-self: center; */
+}
+
 #personal {
     display: flex;
     margin-top: 5em;
