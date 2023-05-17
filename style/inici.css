@@ -22,6 +22,8 @@ header {
 /* Body Main */
 .main-content {
     margin: 1em;
+    padding-bottom: 2em;
+    height: 100%;
 }
 #main-title {
     font-size: 1.3em;
@@ -30,17 +32,25 @@ header {
     font-size: 1em;
 }
 
+#index-ul {
+    margin-left: 2em;
+}
+
 img {
     max-width: 10em;
     margin-top: 2vw;
     margin-left: 5vw;
 }
 
+.index-services-info {
+    margin-top: 3em;
+}
+
 /*  Body Team */
 #services {
     margin-top: 3em;
-    margin-left: 15em;
-    padding-bottom: 10em;
+    margin-left: 30%;
+    /* padding-bottom: 5em; */
     display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -66,7 +76,7 @@ img {
     margin-top: 5em;
     margin-left: 13em;
     flex-wrap: wrap;
-    padding-bottom: 10em;
+    padding-bottom: 2em;
 }
 
 #personal .persona {
@@ -86,10 +96,11 @@ img {
 
 /* Footer */
 footer {
-    background-color: rgba(37, 35, 35, 0.904);
-    position: fixed;
+    background-color: rgb(37, 35, 35);
+    position: relative;
+    /* position: sticky; */
     width: 100%;
-    bottom: -.1em;
+    /* bottom: -.1em; */
     padding-top: 1em;
     padding-bottom: 1em;
     text-align: center;
@@ -100,8 +111,6 @@ footer {
     margin-top: 1em;
     margin-left: 1.5em;
     text-align: center;
-    /* text-align: center; */
-    /* display: flex; */
 }
 
 #footer-social a {
