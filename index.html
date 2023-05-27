@@ -1,74 +1,704 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="UpEnterprise"/>
-    <meta name="description" content="">
-    <title>UpEnterprise | Inici</title>
-    <link rel="icon" href="./img/logo.svg">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <!-- Imports -->
-    <link rel="stylesheet" href="./style/inici.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
+  <title>UpEnterprise - Inici</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
+
 <body>
-  <header>
-      <nav class="navbar navbar-inverse">
-          <div class="container-fluid">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarSupportedContent">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>                        
-              </button>
-            <a class="navbar-brand" href="#">UpEntereprise</a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="nav navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Inici</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/contact.html">Contacte</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="./pages/who.html">Equip</a>
-                </li>
-              </ul>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span>UpEnterprise</span>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Inici</a></li>
+          <li><a class="nav-link scrollto" href="#about">Sobre Nosaltres</a></li>
+          <li><a class="nav-link scrollto" href="#features">Característiques i Serveis</a></li>
+          <li><a class="nav-link scrollto" href="#pricing">Preus</a></li>
+          <li><a class="nav-link scrollto" href="#team">Equip</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contacte</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up">Vols informatitzar la teva empresa?</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">Nosaltres t'ajudem amb la informatització de la teva empresa.</h2>
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-center text-lg-start">
+              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Més Informació</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
             </div>
           </div>
-        </nav>
-  </header>
-  <main>
-    <div class="main-content">
-      <p id="main-title"><strong>Que fem?</strong></p>
-      <p class="main-text">En UpEnterprise t'oferim els diferents serveis:</p>
-      <p class="main-text"><strong>·</strong> Hosting Web.</p>
-      <p class="main-text"><strong>·</strong> Creació de pàgina web a mesura.</p>
-      <p class="main-text"><strong>·</strong> Informatització de la teva empresa.</p>
-      <br>
-      <img src="./imgs/Servicio1.png" alt="Ex Img Serveis">
-      <img src="./imgs/Servicio2.png" alt="Ex Img Serveis">
-      <img src="./imgs/Servicio3.png" alt="Ex Img Serveis">
+        </div>
+        <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid" alt="">
+        </div>
+      </div>
     </div>
-  </main>
-  <footer id="footer"> 
-    <div id="footer-social">
-      <a href="#"><i class="fa-brands fa-instagram icon"></i></a>
-      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=upenterprise@gmail.com&su=Contact from..&body=Hello..,"><i class="fa-solid fa-envelope icon"></i></a>
-      <a href="#"><i class="fa-brands fa-instagram icon"></i></a>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h3>Qui som?</h3>
+              <h2>Som una empresa que t'ofereix el servei d'informatització.</h2>
+              <p>
+                T'oferim els diferents serveis d'informatització: Hosting, Creació i disseny web.
+              </p>
+              <div class="text-center text-lg-start">
+                <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span>Llegir més</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+
+    <!-- ======= Values Section ======= -->
+    <section id="values" class="values">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Els nostres valors</h2>
+          <p>Els nostres valors com a empresa</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="box">
+              <img src="assets/img/values-1.png" class="img-fluid" alt="">
+              <h3>Economic</h3>
+              <p>Intentem fer els serveis que oferim d'una manera que pugui ser economica per a empreses o comerços que començen.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
+            <div class="box">
+              <img src="assets/img/values-2.png" class="img-fluid" alt="">
+              <h3>Comoditat</h3>
+              <p>Adaptem tot el que fem a gust i aixi fer que sigui tot mes comode a l'hora de demanar-nos algún tipus de servei.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
+            <div class="box">
+              <img src="assets/img/values-3.png" class="img-fluid" alt="">
+              <h3>Tasques.</h3>
+              <p>Intentem que sempre totes les tasques que oferim en els nostres serveis estiguin llestes per als nostres clients en el menor temps possible.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Values Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Clients Satisfets</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext" style="color: #ee6c20;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="200" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Projectes</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-headset" style="color: #15be56;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Hores de suport</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-people" style="color: #bb0852;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Treballadors Actius</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Característiques i Serveis</h2>
+          <p>Característiques que t'oferim</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <img src="assets/img/features.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
+            <div class="row align-self-center gy-4">
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Creació Web</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Hosting</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Centralització</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Diseny</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Manteniment</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Estadístiques</h3>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div> <!-- / row -->
+
+        <!-- Feature Tabs -->
+        <div class="row feture-tabs" data-aos="fade-up">
+          <div class="col-lg-6">
+            <h3>Mes informació sobre les característiques</h3>
+
+            <!-- Tabs -->
+            <ul class="nav nav-pills mb-3">
+              <li>
+                <a class="nav-link active" data-bs-toggle="pill" href="#tab1">Web</a>
+              </li>
+              <li>
+                <a class="nav-link" data-bs-toggle="pill" href="#tab2">Hosting</a>
+              </li>
+            </ul><!-- End Tabs -->
+
+            <!-- Tab Content -->
+            <div class="tab-content">
+
+              <div class="tab-pane fade show active" id="tab1">
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>Creació Web</h4>
+                </div>
+                <p>La creació wueb es fa a partir de la informació que se'ns dona, assignem un disenyador del nostre equip per posar en comú les idees que es donen i alguns ajustamens per fer la web mes comoda per als visitants que es tindran.</p>
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>Estadístiques</h4>
+                </div>
+                <p>S'ofereixen estadístiques mensuals de la pàgina web perquè se sàpiga on visita més i cuantes visites d'usuaris ha tingut .</p>
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>Certificat i Manteniment</h4>
+                </div>
+                <p>Cuan es crea la web garantim un certificat SSL (Certificat que garanteix la connexió segura a la web) i un manteniment de la web per que no es tinguin problemes a l'hora de entrar a la web.</p>
+              </div><!-- End Tab 1 Content -->
+
+              <div class="tab-pane fade show" id="tab2">
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>Serveis de Hosting</h4>
+                </div>
+                <p>Oferim gran varientat de hosting a necessitat.</p>
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>Hosting Web</h4>
+                </div>
+                <p>Hosting el cual ve incluit amb la creació de la web, també es pot comprar per separar.</p>
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>Hosting VPS</h4>
+                </div>
+                <p>Hosting el cual s'et dona acces a una maquina virtual ambientada a servidor, que es pot fer servir per ambits mes personalitzats.</p>
+              </div><!-- End Tab 2 Content -->
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <img src="assets/img/features-2.png" class="img-fluid" alt="">
+          </div>
+
+        </div><!-- End Feature Tabs -->
+
+    </section><!-- End Features Section -->
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Preus</h2>
+          <p>Preus dels diferents serveis</p>
+        </header>
+
+        <div class="row gy-4" data-aos="fade-left">
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box">
+              <h3 style="color: #07d5c0;">Web</h3>
+              <div class="price"><sup>$</sup>15<span> / mo</span></div>
+              <img src="assets/img/pricing-free.png" class="img-fluid" alt="">
+              <ul>
+                <li>HTML o Wordpress</li>
+                <li>Diseny personalitzat</li>
+                <li>Domini gratuït (1 mes)</li>
+              </ul>
+              <a href="#" class="btn-buy">Comprar</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="box">
+              <span class="featured">Featured</span>
+              <h3 style="color: #65c600;">Web + Hosting</h3>
+              <div class="price"><sup>$</sup>30<span> / mo</span></div>
+              <img src="assets/img/pricing-starter.png" class="img-fluid" alt="">
+              <ul>
+                <li>Domini personalitzat</li>
+                <li>Domini gratuït (1 any)</li>
+                <li>Certificat SSL</li>
+                <li>Monitorització online</li>
+                <li>50 GB d'emmagatzematge</li>
+              </ul>
+              <a href="#" class="btn-buy">Comprar</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="box">
+              <h3 style="color: #ff901c;">VPS</h3>
+              <div class="price"><sup>$</sup>100<span> / mo</span></div>
+              <img src="assets/img/pricing-business.png" class="img-fluid" alt="">
+              <ul>
+                <li>RAM 32 GB o 64 Gb DDR4</li>
+                <li>CPU 8 Vcores</li>
+                <li>Emmagatzematge 2 TB SSD</li>
+                <li>Xarxa 5G/s</li>
+              </ul>
+              <a href="#" class="btn-buy">Comprar</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="box">
+              <h3 style="color: #ff0071;">VPS Premium</h3>
+              <div class="price"><sup>$</sup>49<span> / mo</span></div>
+              <img src="assets/img/pricing-ultimate.png" class="img-fluid" alt="">
+              <ul>
+                <li>RAM 128 Gb DDR4</li>
+                <li>CPU 10 Vcores</li>
+                <li>Emmagatzematge 5 TB SSD</li>
+                <li>Xarxa 10G/s</li>
+              </ul>
+              <a href="#" class="btn-buy">Comprar</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Pricing Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Equip</h2>
+          <p>El nostre equip</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Abel Hernandez</h4>
+                <span>CEO</span>
+                <p>Director executiu de la empresa.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Pol Granado</h4>
+                <span>CTO</span>
+                <p>Director tecnològic.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Yeray Blanco</h4>
+                <span>CIO</span>
+                <p>Director de Tecnologia de la Informació.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Abel Bonet</h4>
+                <span>CFO</span>
+                <p>Director de financies.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Team Section -->
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Socis</h2>
+          <p>Els nostres socis</p>
+        </header>
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+    </section><!-- End Clients Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Contacte</h2>
+          <p>Informació de contacte</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Direcció</h3>
+                  <p>C. Josep Piñol, 8<br>Granollers, 08402</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Telèfon</h3>
+                  <p>+34 655 98 64 58</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Correu</h3>
+                  <p>up.enterprise.contact@gmail.com</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-clock"></i>
+                  <h3>Horari</h3>
+                  <p>Dilluns - Divendres<br>9:00h - 20:00h</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" class="php-email-form">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Carregant</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">El teu missatge s'ha enviat correctament. Gracies!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/logo.png" alt="">
+              <span>UpEnterprise</span>
+            </a>
+            <p>T'ajudem a informatitzar la teva empresa.</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Links Útils</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Inici</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#team">Sobre Nosaltres</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#features">Serveis</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#pricing">Preus</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Termes del Servei</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Política de Privadesa</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Els nostres serveis</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#features">Característiques i Serveis</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Informació de contacte</h4>
+            <p>
+              C. Josep Piñol, 8<br>
+              Granollers, 08402<br>
+              Barcelona <br><br>
+              <strong>Telèfon:</strong> +34 655 98 64 58<br>
+              <strong>Correu:</strong> up.enterprise.contact@gmail.com<br>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
     </div>
-  <div class="container">
-     <div class="copyright"> &copy; Copyright <strong><span>UpEnterprise</span></div>
-    </div> 
-  </div>
-</footer>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>UpEnterprise</span></strong>. Tots els drets reservats
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
